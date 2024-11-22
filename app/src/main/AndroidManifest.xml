@@ -23,8 +23,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Verify" android:exported="true"/>
-        <activity android:name=".SignUp" android:exported="true"/>
+        <activity android:name=".Verify" android:exported="false"/>
+        <activity android:name=".SignUp" android:exported="false"/>
 
     </application>
 
