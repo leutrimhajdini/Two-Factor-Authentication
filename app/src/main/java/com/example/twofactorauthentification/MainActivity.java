@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(MainActivity.this, SignUp.class));
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
                 //overridePendingTransition(R.xml.slide_bottom, R.xml.fade_out);
 
                 finish();
